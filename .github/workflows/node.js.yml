@@ -28,7 +28,7 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
-        cache: 'npm'
+        # cache: 'npm'
 
     - name: Docker build & push to docker repo
       run: |
